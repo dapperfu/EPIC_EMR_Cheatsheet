@@ -2,7 +2,7 @@
 default: all
 
 MK_DIR:=$(realpath $(dir $(lastword ${MAKEFILE_LIST})))
-include $(realpath ${MK_DIR}/cheatsheet.mk)
+include $(realpath ${MK_DIR}/epic_emr_cheatsheet.mk)
 all: ${ALL}
 
 .PHONY: clean
